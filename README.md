@@ -39,11 +39,20 @@ then open bashrc file and add code below
 source ~/<workspace_name>/install/setup.bash
 ```
 
-## create package
+# create package
+ 
+#### we also need to decide python package or c++ package
  move to src
 ```
-ros2 pkg create <package_name>
+ros2 pkg create <package_name> --build-type ament_python --dependencies rclpy
 ```
+#### ament_python is for pythin
+#### ament_cmake is for c++
+
+ament is to build system
+rclpy is a node <this is a pythin libraray for ros2>
+dependencies r the packages and funtionalities that we are going to need to use in this package
+
 each package can contain many nodes
 each node will be specific to this subpart
 example: package name is <my_robot_controller>, then nodes will be specific to the control of the robot
