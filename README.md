@@ -21,4 +21,20 @@ and add "source source /opt/ros/humble/setup.bash" at the end of line
 ros2
 ```
 
+## create new package
+
+```
+mkdir <package_name>
+cd /package_name
+mkdir src
+colcon build
+```
+
+add setup.bash in bashrc file 
+to check this  -.bash, go to /install and find setup.bash
+then open bashrc file and add code below
+
+```
+source ~/<package_name>/install/setup.bash
+```
 
