@@ -46,7 +46,7 @@ source ~/<workspace_name>/install/setup.bash
 ```
 ros2 pkg create <package_name> --build-type ament_python --dependencies rclpy
 ```
-#### ament_python is for pythin
+#### ament_python is for python
 #### ament_cmake is for c++
 
 ament is to build system
@@ -56,4 +56,7 @@ dependencies r the packages and funtionalities that we are going to need to use 
 each package can contain many nodes
 each node will be specific to this subpart
 example: package name is <my_robot_controller>, then nodes will be specific to the control of the robot
+
+Check that you successfully create package 
+
 
