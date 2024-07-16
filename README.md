@@ -3,9 +3,9 @@
 ```
 cd /opt/ros/humble/
 ```
- then you can see setup.sh
+ then you can see setup.bash
 
-### Sourtcing the setup script
+### Sourcing the setup script
  For each terminal, you need to run this code below ( you can see more easy way later)
 ```
 source /opt/ros/humble/setup.bash
