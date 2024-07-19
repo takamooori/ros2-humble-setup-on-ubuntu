@@ -1,4 +1,4 @@
-# environment setup
+# practice for ROS2 with python
 ### move to where you install ros2 to check "setup.bash"
 ```
 cd /opt/ros/humble/
