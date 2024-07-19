@@ -59,4 +59,14 @@ example: package name is <my_robot_controller>, then nodes will be specific to t
 
 Check that you successfully create package 
 
+## create python file
+move to the file in one package
 
+ ```
+touch <file_name>.py
+```
+this below is for make this file exacuted mode
+```
+chmod +x <file>
+```
+ then u can see the file name green 
