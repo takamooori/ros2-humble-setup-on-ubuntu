@@ -69,4 +69,21 @@ this below is for make this file exacuted mode
 ```
 chmod +x <file>
 ```
- then u can see the file name green 
+ then u can see the file name characters green 
+
+### how to install the node
+move to setup.py
+and add some quotes in entry_points to create exacutable name
+excutable name=package_name.file_name<without python extention>:main<the function we want to run>
+ for example
+ ```
+ test_node= my_robot_controller.my_first_node:main
+```
+then move to workspace and run this command to build the package
+And if you want to use new functiononalities that you have developed in the package, you need to source your workspace again
+```
+colcon build
+source ~/.bashrc
+```
+
+ 
