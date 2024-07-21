@@ -86,4 +86,31 @@ colcon build
 source ~/.bashrc
 ```
 
+# About topic
+#### To see the topic running
+```
+ros2 topic list
+```
+#### To see infomation about topic you pick
+```
+ros2 topic info </toppic_name>
+```
+##### example 
+ Type: std_msgs/msg/String
+ Publisher count: 1
+ Subscription count : 1
+
+#### To see data type
+```
+ros2 interface show <std_msgs/msg/String>
+```
+
+
+
+
+
+
+
+ 
+
  
