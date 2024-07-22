@@ -23,6 +23,11 @@ ros2
 
 # create workspace and directry
 
+to runthis command <colcon build> make sure you have this below
+```
+sudo apt install python3-colcon-common-extensions
+```
+
 src is a directory
 ```
 mkdir <workspace_name>
